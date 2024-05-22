@@ -51,12 +51,12 @@ menuicon.addEventListener("click", () => {
 
 // preloader
 
-// let preloader = document.querySelector(".preloader");
-// body.style.overflow = "hidden";
-// setTimeout(() => {
-//     preloader.classList.add("-top-105");
-//     body.style.overflow = "auto";
-// }, 3000);
+let preloader = document.querySelector(".preloader");
+body.style.overflow = "hidden";
+setTimeout(() => {
+    preloader.classList.add("-top-105");
+    body.style.overflow = "auto";
+}, 3000);
 
 // comeback notification
 
