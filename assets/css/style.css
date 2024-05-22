@@ -1,4 +1,7 @@
 /* <----------------------------------------------------------- Navbar ----------------------------------------------------------------> */
+/* * {
+    outline: 1px solid red;
+} */
 
 .btn_changes {
     padding: 19px 32px;
@@ -56,7 +59,7 @@
 
 .pos-hero-img {
     right: 0;
-    bottom: 50px;
+    bottom: 35px;
 }
 
 .-mt-10px {
@@ -76,6 +79,7 @@
 }
 
 /* <----------------------------------------------------------- About US ----------------------------------------------------------------> */
+
 .py-about-us {
     padding-top: 218px;
     padding-bottom: 280px;
@@ -108,6 +112,10 @@
     padding-bottom: 50px;
 }
 
+.mb-media-about-text {
+    margin-bottom: 20px;
+}
+
 .box-token-sec {
     max-width: 404px;
     margin-top: 20px;
@@ -120,7 +128,7 @@
 
 /* boxes token */
 .first-box-token {
-    max-width: 296px;
+    max-width: 302px;
     padding: 6.5px 12.5px 6.5px 12.5px;
     border: 1px solid #000000;
     background: var(--hero-sec-text-clr);
@@ -147,6 +155,7 @@
 
 
 /* <----------------------------------------------------------- Utility section ----------------------------------------------------------------> */
+
 .back-img-chart {
     background-image: url("../Images/PNG/about-us-sec-img.png");
     background-size: 100% 100%;
@@ -157,6 +166,203 @@
 .py-utility {
     padding-top: 333px;
     padding-bottom: 240px;
+}
+
+/* <----------------------------------------------------------- Ecosystem ----------------------------------------------------------------> */
+
+.py-ecosystem {
+    padding-top: 177px;
+    padding-bottom: 225px;
+}
+
+/* <----------------------------------------------------------- Roadmap ----------------------------------------------------------------> */
+
+.max-w-roadmap-text {
+    max-width: 894.15px;
+}
+
+.py-roadmap-timeline {
+    padding-bottom: 141px;
+    padding-top: 121px;
+}
+
+.pb-roadmap {
+    padding-bottom: 166px;
+}
+
+/* timeline */
+.first-item {
+    padding-left: 45px;
+}
+
+.timeline-item {
+    position: relative;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* fifth item */
+
+.timeline-item.fifth-item::before {
+    content: '';
+    position: absolute;
+    left: -36px;
+    width: 6px;
+    height: 323px;
+    top: 0;
+    background-color: orange;
+}
+
+.timeline-item.fifth-item::after {
+    content: '';
+    position: absolute;
+    bottom: 60px;
+    left: -45px;
+    width: 25px;
+    height: 75px;
+    background-color: orange;
+}
+
+/* forth item */
+
+.timeline-item.forth-item::before {
+    content: '';
+    position: absolute;
+    left: -36px;
+    width: 6px;
+    height: 323px;
+    top: -50px;
+    background-color: orange;
+}
+
+.timeline-item.forth-item::after {
+    content: '';
+    position: absolute;
+    bottom: 200px;
+    left: -45px;
+    width: 25px;
+    height: 75px;
+    background-color: orange;
+}
+
+/* third item */
+
+.timeline-item.third-item::before {
+    content: '';
+    position: absolute;
+    left: -36px;
+    width: 6px;
+    height: 323px;
+    top: -50px;
+    background-color: orange;
+}
+
+.timeline-item.third-item::after {
+    content: '';
+    position: absolute;
+    bottom: 120px;
+    left: -45px;
+    width: 25px;
+    height: 75px;
+    background-color: orange;
+}
+
+/* second item */
+
+.timeline-item.second-item::before {
+    content: '';
+    position: absolute;
+    left: -36px;
+    width: 6px;
+    height: 323px;
+    background-color: orange;
+}
+
+.timeline-item.second-item::after {
+    content: '';
+    position: absolute;
+    bottom: 35px;
+    left: -45px;
+    width: 25px;
+    height: 75px;
+    background-color: orange;
+}
+
+/* first item */
+
+.timeline-item.first-item::before {
+    content: '';
+    position: absolute;
+    left: 9px;
+    width: 6px;
+    height: 248px;
+    background-color: orange;
+}
+
+.timeline-item.first-item::after {
+    content: '';
+    position: absolute;
+    top: 96px;
+    left: 0;
+    width: 25px;
+    height: 75px;
+    background-color: orange;
+}
+
+.bottom-align {
+    justify-content: flex-end;
+}
+
+.center-align {
+    justify-content: center;
+}
+
+.top-align {
+    justify-content: flex-start;
+}
+
+/* <----------------------------------------------------------- Latest News ----------------------------------------------------------------> */
+
+.py-news {
+    padding-top: 312px;
+    padding-bottom: 96px;
+}
+
+.news-box {
+    max-width: 367px;
+    border: 1px solid var(--black-color);
+    background: var(--color-white);
+    padding: 26px 0px 19px 22px;
+}
+
+.my-news-box-text {
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+
+.mb-media-news-heading {
+    margin-bottom: 72px;
+}
+
+/* <----------------------------------------------------------- Footer ----------------------------------------------------------------> */
+.py-footer {
+    padding-top: 153px;
+    padding-bottom: 131px;
+}
+
+.mt-media-copy {
+    margin-top: 41px;
+}
+
+.mb-media-sub-head {
+    margin-bottom: 30px;
+}
+
+.mb-media-sub-text {
+    margin-bottom: 17px;
 }
 
 /* <----------------------------------------------------------- Hover Effect ----------------------------------------------------------------> */
