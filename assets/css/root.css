@@ -741,6 +741,69 @@ a {
     .mt-boxes-token {
         margin-top: 18px;
     }
+
+    .py-about-us {
+        padding-top: 135px;
+        padding-bottom: 160px;
+    }
+
+    .pt-media-pic {
+        padding-top: 0;
+    }
+
+    .my-media-about-text {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .max-w-social-link {
+        height: auto;
+        min-height: auto;
+    }
+
+    .py-utility {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .py-ecosystem {
+        padding-top: 80px;
+        padding-bottom: 200px;
+    }
+
+    .py-roadmap-timeline {
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+
+    .pb-roadmap {
+        padding-bottom: 100px;
+    }
+
+    .py-news {
+        padding-top: 200px;
+        padding-bottom: 81px;
+    }
+
+    .py-media-max-lg {
+        padding-top: 39px;
+        padding-bottom: 39px;
+    }
+
+    .fs-banner-text {
+        font-size: var(--fs-30);
+        line-height: var(--lh-120);
+    }
+
+    .pos-text-utility-3,
+    .pos-text-utility-1,
+    .pos-text-utility-2 {
+        opacity: 30%;
+    }
+
+    .pos-text-utility-3 {
+        right: 0;
+    }
 }
 
 @media (min-width: 992px) {
@@ -773,13 +836,69 @@ a {
         line-height: var(--lh-150)
     }
 
+    .third-box-token {
+        padding: 6.5px 7.5px 6.5px 7.5px;
+    }
+
+    .pos-text-about-2 {
+        opacity: 30%;
+    }
+
+    .pos-text-about-3 {
+        opacity: 30%;
+    }
 }
 
 
 @media (max-width: 767.9px) {
+
+    .scroll_top,
+    .scroll_box {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 50% !important;
+    }
+
     .my-hero-content {
         margin-top: 40px;
         margin-bottom: 30px;
+    }
+
+    .opac-media {
+        opacity: 30%;
+    }
+
+    .fs-banner-text {
+        font-size: var(--fs-23);
+        line-height: var(--lh-120);
+    }
+
+    ..pos-svg-news {
+        left: 0;
+    }
+
+    ..pos-svg-news-lap {
+        right: 0;
+    }
+
+    .py-footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .py-news {
+        padding-top: 120px;
+        padding-bottom: 81px;
+    }
+
+    .py-utility {
+        padding-top: 90px;
+        padding-bottom: 50px;
+    }
+
+    .py-ecosystem {
+        padding-top: 0;
+        padding-bottom: 120px;
     }
 
     .w-h-media-changes {
@@ -858,6 +977,38 @@ a {
 @media (max-width: 575.9px) {
     .fs-title-media {
         font-size: var(--fs-30);
+    }
+
+    .pos-text-about-1 {
+        left: 20px;
+        top: 200px;
+    }
+
+    .py-news {
+        padding-top: 81px;
+        padding-bottom: 81px;
+    }
+
+    .py-about-us {
+        padding-bottom: 100px;
+    }
+
+    .py-utility {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .py-roadmap-timeline {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .pb-roadmap {
+        padding-bottom: 50px;
+    }
+
+    .w-h-media-link {
+        width: 300px;
     }
 
     .fs-sub-head-token {
