@@ -791,17 +791,6 @@ a {
         padding: 20.27px 12.81px 20.98px 12.19px;
     }
 
-    .fs-sub-head-token {
-        font-size: var(--fs-18);
-        line-height: var(--lh-150);
-    }
-
-    .token-txt {
-        font-weight: var(--fw-500);
-        font-size: var(--fs-18);
-        line-height: var(--lh-150);
-    }
-
     .timeline-item {
         align-items: start;
         min-height: 120px;
@@ -869,6 +858,17 @@ a {
 @media (max-width: 575.9px) {
     .fs-title-media {
         font-size: var(--fs-30);
+    }
+
+    .fs-sub-head-token {
+        font-size: var(--fs-16);
+        line-height: var(--lh-150);
+    }
+
+    .token-txt {
+        font-weight: var(--fw-500);
+        font-size: var(--fs-16);
+        line-height: var(--lh-150);
     }
 
     .d-sm-btn-none {
