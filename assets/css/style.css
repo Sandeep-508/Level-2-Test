@@ -72,7 +72,7 @@
 
 .pos-sec-social {
     position: relative;
-    top: -50px;
+    top: -25px;
 }
 
 /* <----------------------------------------------------------- About US ----------------------------------------------------------------> */
@@ -147,6 +147,12 @@
 
 
 /* <----------------------------------------------------------- Utility section ----------------------------------------------------------------> */
+.back-img-chart {
+    background-image: url("../Images/PNG/about-us-sec-img.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .py-utility {
     padding-top: 333px;
