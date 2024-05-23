@@ -675,7 +675,7 @@ a {
         width: 100%;
         top: 0;
         left: -100%;
-        background: var(--text_lg);
+        background: var(--black-color);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -803,6 +803,14 @@ a {
 
     .pos-text-utility-3 {
         right: 0;
+    }
+
+    .pos-svg-eco-googles {
+        opacity: 40%;
+    }
+
+    .w-h-changes-link {
+        width: 40px;
     }
 }
 
