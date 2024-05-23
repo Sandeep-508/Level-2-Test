@@ -86,7 +86,7 @@
 
 .py-about-us {
     padding-top: 329px;
-    padding-bottom: 280px;
+    padding-bottom: 310px;
 }
 
 .max-w-social-link {
@@ -122,8 +122,13 @@
 }
 
 .pos-text-about-3 {
-    bottom: 0;
+    bottom: -80px;
     left: 10%;
+}
+
+.pos-svg-about-googles {
+    bottom: 204px;
+    right: 15px;
 }
 
 /* <----------------------------------------------------------- Tokenomics ----------------------------------------------------------------> */
@@ -224,7 +229,7 @@
 
 .py-ecosystem {
     padding-top: 177px;
-    padding-bottom: 225px;
+    padding-bottom: 285px;
 }
 
 .pos-svg-eco {
@@ -234,7 +239,7 @@
 
 .pos-svg-eco-googles {
     bottom: 204px;
-    right: 0;
+    right: 80px;
 }
 
 /* <----------------------------------------------------------- Roadmap ----------------------------------------------------------------> */
@@ -417,6 +422,28 @@
 .pos-svg-news-lap {
     top: 228px;
     right: 100px;
+}
+
+.slick-slide {
+    margin: 0 20px;
+}
+
+.slick-list {
+    padding: 16px !important;
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+.slick-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-list {
+    margin: 0 0px;
 }
 
 /* <----------------------------------------------------------- Footer ----------------------------------------------------------------> */

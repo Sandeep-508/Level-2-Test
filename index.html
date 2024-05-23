@@ -8,13 +8,21 @@
     <link rel="stylesheet" href="./assets/Images">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/root.css">
 </head>
 
 <body>
     <!-- preloader -->
 
-    <section class="preloader position-fixed d-flex align-items-center justify-content-center flex-column">
+    <!-- <section class="preloader position-fixed d-flex align-items-center justify-content-center flex-column">
         <div class="container_hero">
             <div>
                 <div class="content">
@@ -40,7 +48,7 @@
             </div>
             <div class="loader mt-lg-5 mt-4"></div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Hero section -->
 
@@ -93,7 +101,7 @@
                     <button class="fm_int fw-600 fs-16 lh-19 btn_changes text-white bg-transparent">How To Buy?</button>
                 </div>
                 <button
-                    class="fm_int fw-600 fs-16 lh-19 btn_changes_svg text-white bg-transparent d-flex align-items-center gap-4 d-sm-btn-none">
+                    class="fm_int fw-600 fs-20 lh-19 btn_changes_svg text-white bg-transparent d-flex align-items-center gap-4 d-sm-btn-none">
                     dwqjddj324dnewdne3dewrrets <span>
                         <svg width="26" height="32" viewBox="0 0 26 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -127,7 +135,7 @@
 
         <!-- pos-image section -->
 
-        <section class="box-changes d-flex align-items-center justify-content-center pos-sec-social">
+        <section class="box-changes d-flex align-items-center justify-content-center pos-sec-social z-3">
             <div class="container_diff_hero w-100 d-flex align-items-center justify-content-center py-media-max-lg">
                 <div class="row w-100">
                     <div class="col-lg-4 col-sm-6 d-flex align-items-center justify-content-center">
@@ -159,17 +167,20 @@
 
         <section class="py-about-us position-relative -mt-10px back-img-chart">
             <div class="position-absolute pos-text-about-1 opac-media">
-                <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50">I love FUDing</p>
+                <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50 fs-media-pos-text">I love FUDing</p>
+            </div>
+            <div class="position-absolute pos-svg-about-googles">
+                <img src="./assets/Images/SVG/googles-svg.svg" alt="random svg notepad">
             </div>
             <div class="position-absolute pos-text-about-2">
-                <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50">I love FUDing</p>
+                <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50 fs-media-pos-text">I love FUDing</p>
             </div>
             <div class="bottom-cloud-img position-absolute w-100">
                 <img src="/assets/Images/PNG/token-top-img.png" alt="random cloud image" class="w-100">
             </div>
             <div class="container-about-us position-relative z-3">
                 <div class="position-absolute pos-text-about-3">
-                    <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50">I love FUDing</p>
+                    <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50 fs-media-pos-text">I love FUDing</p>
                 </div>
                 <div class="row">
                     <div
@@ -177,8 +188,9 @@
                         <img src="./assets/Images/PNG/about-us-col-img.png" alt="a random talking on the phone"
                             class="w-h-media-changes">
                     </div>
-                    <div class="col-lg-6 mt-lg-0 mt-3">
-                        <div class="d-flex align-items-center max-w-social-link">
+                    <div
+                        class="col-lg-6 mt-lg-0 mt-3 d-flex align-items-lg-start align-items-center justify-content-center flex-column pe-media">
+                        <div class="d-flex align-items-center max-w-social-link d-lg-max-none">
                             <a href="#" class="w-h-changes-link">
                                 <img src="./assets/Images/SVG/about-us-section-social-link-1.svg" alt="social links"
                                     class="w-100 h-100">
@@ -202,32 +214,84 @@
                         </div>
                         <p class="fm_int fw-900 fs-64 lh-75 text-black my-media-about-text fs-about-heading">ABOUT US
                         </p>
-                        <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80">In the ever-evolving landscape of
-                            cryptocurrency, where
-                            markets can swing on a tweet and
-                            sentiments wield as much power
-                            as technical analysis, one figure has recently stepped into the spotlight: Gary Gensler, or
-                            as we affectionately call
-                            him, GG. With his recent comments on Bitcoin, Gensler stirred the pot of fear, uncertainty,
-                            and doubt (FUD), sending
-                            shockwaves through the crypto community.</p>
-                        <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80">But fear not, for in the midst of this
-                            whirlwind of emotions, there emerges a beacon of levity and laughter: Let's Hug
-                            GG ($LHGG).Hug GG We're not your average token; we're a humorous response to the serious
-                            business of crypto. Inspired by
-                            Gensler's remarks and the ensuing FUD frenzy, $LHGG aims to inject a healthy dose of humor
-                            into the conversation while
-                            playfully encouraging individuals to consider selling their Bitcoins.</p>
-                        <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80">ou see, we believe that in times of
-                            uncertainty, a good laugh can be the best antidote. And what better way to address
-                            fear than with a hug—from behind, of course! Our slogan, "If you sell your BTC, we'll let
-                            you hug GG from behind so
-                            tightly," embodies our playful approach to tackling the anxiety surrounding Bitcoin and the
-                            broader crypto market.</p>
-                        <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80">So, buckle up and get ready for a
-                            rollercoaster ride of giggles, hugs, and maybe even a few profitable trades along the
-                            way. Because in the world of $LHGG, laughter isn't just the best medicine—it's the best
-                            investment strategy.</p>
+                        <!--  -->
+                        <div class="d-flex-align-items-lg-start align-items-center justify-content-center">
+                            <p
+                                class="fm_int fw-400 fs-16 lh-24 text-black opac_80 text-lg-start text-center max-w-lg-media">
+                                In the
+                                ever-evolving landscape of
+                                cryptocurrency, where
+                                markets can swing on a tweet and
+                                sentiments wield as much power
+                                as technical analysis, one figure has recently stepped into the spotlight: Gary Gensler,
+                                or
+                                as we affectionately call
+                                him, GG. With his recent comments on Bitcoin, Gensler stirred the pot of fear,
+                                uncertainty,
+                                and doubt (FUD), sending
+                                shockwaves through the crypto community.</p>
+                        </div>
+                        <!-- -->
+                        <div class="d-flex-align-items-lg-start align-items-center justify-content-center">
+                            <p
+                                class="fm_int fw-400 fs-16 lh-24 text-black opac_80 text-lg-start text-center max-w-lg-media">
+                                But fear
+                                not,
+                                for in the midst of this
+                                whirlwind of emotions, there emerges a beacon of levity and laughter: Let's Hug
+                                GG ($LHGG).Hug GG We're not your average token; we're a humorous response to the serious
+                                business of crypto. Inspired by
+                                Gensler's remarks and the ensuing FUD frenzy, $LHGG aims to inject a healthy dose of
+                                humor
+                                into the conversation while
+                                playfully encouraging individuals to consider selling their Bitcoins.</p>
+                        </div>
+                        <!---->
+                        <div class="d-flex-align-items-lg-start align-items-center justify-content-center">
+                            <p
+                                class="fm_int fw-400 fs-16 lh-24 text-black opac_80 text-lg-start text-center max-w-lg-media">
+                                ou see, we
+                                believe that in times of
+                                uncertainty, a good laugh can be the best antidote. And what better way to address
+                                fear than with a hug—from behind, of course! Our slogan, "If you sell your BTC, we'll
+                                let
+                                you hug GG from behind so
+                                tightly," embodies our playful approach to tackling the anxiety surrounding Bitcoin and
+                                the
+                                broader crypto market.</p>
+                        </div>
+                        <!--  -->
+                        <div class="d-flex-align-items-lg-start align-items-center justify-content-center">
+                            <p
+                                class="fm_int fw-400 fs-16 lh-24 text-black opac_80 text-lg-start text-center max-w-lg-media">
+                                So, buckle up
+                                and get ready for a
+                                rollercoaster ride of giggles, hugs, and maybe even a few profitable trades along the
+                                way. Because in the world of $LHGG, laughter isn't just the best medicine—it's the best
+                                investment strategy.</p>
+                        </div>
+                        <div class="d-flex align-items-center max-w-social-link d-lg-min-none">
+                            <a href="#" class="w-h-changes-link">
+                                <img src="./assets/Images/SVG/about-us-section-social-link-1.svg" alt="social links"
+                                    class="w-100 h-100">
+                            </a>
+                            <a href="#" class="w-h-changes-link">
+                                <img src="./assets/Images/SVG/about-us-section-social-link-2.svg" alt="social links"
+                                    class="w-100 h-100">
+                            </a>
+                            <a href="#" class="w-h-changes-link">
+                                <img src="./assets/Images/SVG/about-us-section-social-link-3.svg" alt="social links"
+                                    class="w-100 h-100">
+                            </a>
+                            <a href="#" class="w-h-changes-link">
+                                <img src="./assets/Images/SVG/about-us-section-social-link-4.svg" alt="social links"
+                                    class="w-100 h-100">
+                            </a>
+                            <a href="#" class="w-h-changes-link">
+                                <img src="./assets/Images/SVG/about-us-section-social-link-5.svg" alt="social links"
+                                    class="w-100 h-100">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -238,15 +302,24 @@
         <section class="bg-black py-token position-relative -mt-10px">
             <div class="container_hero">
                 <div class="row flex-lg-row flex-column-reverse">
-                    <div class="col-lg-5 mt-lg-0 mt-3">
+                    <div
+                        class="col-lg-5 mt-lg-0 mt-3 d-flex align-items-lg-start align-items-center justify-content-center flex-column">
                         <p class="fm_int fw-900 fs-64 lh-75 text-white mb-media-about-text fs-head-token">TOKENOMICS</p>
-                        <p class="fm_int fw-400 fs-16 lh-24 text-white opac_80">Let's Hug GG ($LHGG) operates on a
-                            deflationary tokenomics model designed to incentivize selling Bitcoin. With a fixed
-                            total supply and a burn mechanism in place, each transaction contributes to reducing the
-                            circulating supply of $LHGG,
-                            thereby increasing its scarcity and value over time. Additionally, a portion of transaction
-                            fees is allocated to
-                            liquidity pools, ensuring stability and liquidity for $LHGG holders.</p>
+                        <!--  -->
+                        <div class="d-flex-align-items-lg-start align-items-center justify-content-center">
+                            <p
+                                class="fm_int fw-400 fs-16 lh-24 text-white opac_80 text-lg-start text-center max-w-lg-media">
+                                Let's Hug
+                                GG
+                                ($LHGG) operates on a
+                                deflationary tokenomics model designed to incentivize selling Bitcoin. With a fixed
+                                total supply and a burn mechanism in place, each transaction contributes to reducing the
+                                circulating supply of $LHGG,
+                                thereby increasing its scarcity and value over time. Additionally, a portion of
+                                transaction
+                                fees is allocated to
+                                liquidity pools, ensuring stability and liquidity for $LHGG holders.</p>
+                        </div>
                         <div class="box-token-sec d-flex align-items-start justify-content-center flex-column">
                             <div class="d-flex align-items-center gap-3">
                                 <p class="fm_int fw-400 fs-20 lh-30 text-white fs-sub-head-token">Token Name:</p>
@@ -300,7 +373,7 @@
                                     <p class="fm_int fw-600 fs-20 lh-30 text-black text-center mb-2">Community
                                         Development
                                     </p>
-                                    <p class="fm_int fw-600 fs-32 lh-30 text-black text-center mb-2">5%</p>
+                                    <p class="fm_int fw-600 fs-32 lh-30 text-black text-center mb-2">15%</p>
                                 </div>
                             </div>
                             <div
@@ -308,7 +381,7 @@
                                 <div class="first-box-token w-100">
                                     <p class="fm_int fw-600 fs-20 lh-30 text-black text-center mb-2">Ecosystem Fund
                                     </p>
-                                    <p class="fm_int fw-600 fs-32 lh-30 text-black text-center mb-2">5%</p>
+                                    <p class="fm_int fw-600 fs-32 lh-30 text-black text-center mb-2">10%</p>
                                 </div>
                             </div>
 
@@ -317,7 +390,7 @@
                                 <div class="first-box-token w-100">
                                     <p class="fm_int fw-600 fs-20 lh-30 text-black text-center mb-2">Team & Adisors
                                     </p>
-                                    <p class="fm_int fw-600 fs-32 lh-30 text-black text-center mb-2">5%</p>
+                                    <p class="fm_int fw-600 fs-32 lh-30 text-black text-center mb-2">20%</p>
                                 </div>
                             </div>
                         </div>
@@ -329,13 +402,14 @@
         <!-- utility section -->
 
         <section class="py-utility back-img-chart position-relative -mt-10px">
-            <div class="position-absolute pos-text-utility-1">
-                <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50">I love FUDing</p>
+            <div class="position-absolute pos-text-utility-1 z-1">
+                <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50 fs-media-pos-text">I love FUDing</p>
             </div>
-            <div class="position-absolute pos-text-utility-2">
-                <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50">I love FUDing</p>
+            <div class="position-absolute pos-text-utility-2 z-1">
+                <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50 fs-media-pos-text">I love
+                    FUDing</p>
             </div>
-            <div class="position-absolute pos-svg-utility">
+            <div class="position-absolute pos-svg-utility z-1">
                 <img src="./assets/Images/SVG/notepad-svg.svg" alt="random svg notepad">
             </div>
             <div class="position-absolute top-0 start-0 w-100">
@@ -343,18 +417,29 @@
             </div>
             <div class="container_hero position-relative z-3">
                 <div class="position-absolute pos-text-utility-3">
-                    <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50">I love FUDing</p>
+                    <p class=" fm_int fw-900 fs-32 lh-32 text-black opacity-50 fs-media-pos-text d-lg-block d-none">I
+                        love FUDing</p>
                 </div>
                 <div class="row flex-lg-row flex-column-reverse">
-                    <div class="col-lg-6 d-flex align-items-start justify-content-center flex-column mt-lg-0 mt-3">
+                    <div
+                        class="col-lg-6 d-flex align-items-lg-start align-items-center justify-content-center flex-column mt-lg-0 mt-3">
                         <p class="fm_int fw-900 fs-64 lh-75 text-black my-media-about-text fs-about-heading">UTILITY</p>
-                        <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80">The utility of $LHGG extends beyond its
-                            humorous appeal. Holders of $LHGG gain access to exclusive merchandise, events,
-                            and community perks. Furthermore, $LHGG serves as a medium of exchange within our ecosystem,
-                            facilitating transactions
-                            and interactions among community members. Through strategic partnerships and integrations,
-                            we aim to expand the utility
-                            of $LHGG, creating additional avenues for adoption and growth.</p>
+                        <!--  -->
+                        <div class="d-flex-align-items-lg-start align-items-center justify-content-center">
+                            <p
+                                class="fm_int fw-400 fs-16 lh-24 text-black opac_80 text-lg-start text-center mb-4 max-w-lg-media">
+                                The
+                                utility of
+                                $LHGG extends beyond its
+                                humorous appeal. Holders of $LHGG gain access to exclusive merchandise, events,
+                                and community perks. Furthermore, $LHGG serves as a medium of exchange within our
+                                ecosystem,
+                                facilitating transactions
+                                and interactions among community members. Through strategic partnerships and
+                                integrations,
+                                we aim to expand the utility
+                                of $LHGG, creating additional avenues for adoption and growth.</p>
+                        </div>
                         <button class="fm_int fw-600 fs-16 lh-19 btn_changes_hero">Buy
                             $GrayGensler</button>
                     </div>
@@ -365,7 +450,7 @@
                     </div>
                 </div>
             </div>
-            <div class="rotated-banner d-flex align-items-center justify-content-center position-relative">
+            <div class="rotated-banner d-flex align-items-center justify-content-center position-relative p-2">
                 <p class="fm_int fw-900 fs-36 lh-45 text-black text-center fs-banner-text mb-0">PLACE YOURSELF ON
                     THE RIGHT
                     SIDE OF HISTORY
@@ -387,12 +472,13 @@
             </div>
             <div class="container_hero position-relative z-3">
                 <div class="row justify-content-between">
-                    <div class="col-lg-6 pt-media-pic d-flex align-items-center justify-content-center">
+                    <div class="col-lg-6 pt-media-pic d-flex align-items-lg-center justify-content-center">
                         <img src="./assets/Images/PNG/ecosystem-sec-img-removebg.png"
                             alt="a random talking on the phone" class="w-h-media-changes">
                     </div>
-                    <div class="col-lg-5 d-flex align-items-start justify-content-center flex-column mt-lg-0 mt-3">
-                        <div class="d-flex align-items-center max-w-social-link">
+                    <div
+                        class="col-lg-5 d-flex align-items-lg-start align-items-center justify-content-center flex-column mt-lg-0 mt-3">
+                        <div class="d-flex align-items-center max-w-social-link d-lg-max-none">
                             <a href="#" class="w-h-changes-link">
                                 <img src="./assets/Images/SVG/about-us-section-social-link-1.svg" alt="social links"
                                     class="w-100 h-100">
@@ -415,17 +501,47 @@
                             </a>
                         </div>
                         <p class="fm_int fw-900 fs-64 lh-75 text-black my-media-about-text fs-head-token">ECOSYSTEM</p>
-                        <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80">The $LHGG ecosystem is built upon the
-                            principles of inclusivity, humor, and innovation. Our community-driven approach
-                            empowers members to actively participate in governance, decision-making, and promotional
-                            activities. Through social
-                            media campaigns, memes, and creative content, we seek to amplify the message of embracing
-                            humor in the crypto space and
-                            challenging conventional narratives. Together, we aspire to foster a vibrant and engaging
-                            ecosystem where laughter
-                            reigns supreme.</p>
+                        <div class="d-flex-align-items-lg-start align-items-center justify-content-center">
+                            <p
+                                class="fm_int fw-400 fs-16 lh-24 text-black opac_80 text-lg-start text-center mb-4 max-w-lg-media">
+                                The
+                                $LHGG
+                                ecosystem is built upon the
+                                principles of inclusivity, humor, and innovation. Our community-driven approach
+                                empowers members to actively participate in governance, decision-making, and promotional
+                                activities. Through social
+                                media campaigns, memes, and creative content, we seek to amplify the message of
+                                embracing
+                                humor in the crypto space and
+                                challenging conventional narratives. Together, we aspire to foster a vibrant and
+                                engaging
+                                ecosystem where laughter
+                                reigns supreme.</p>
+                        </div>
                         <button class="fm_int fw-600 fs-16 lh-19 btn_changes_hero">Buy
                             $GrayGensler</button>
+                        <div class="d-flex align-items-center max-w-social-link d-lg-min-none mt-lg-0 mt-3">
+                            <a href="#" class="w-h-changes-link">
+                                <img src="./assets/Images/SVG/about-us-section-social-link-1.svg" alt="social links"
+                                    class="w-100 h-100">
+                            </a>
+                            <a href="#" class="w-h-changes-link">
+                                <img src="./assets/Images/SVG/about-us-section-social-link-2.svg" alt="social links"
+                                    class="w-100 h-100">
+                            </a>
+                            <a href="#" class="w-h-changes-link">
+                                <img src="./assets/Images/SVG/about-us-section-social-link-3.svg" alt="social links"
+                                    class="w-100 h-100">
+                            </a>
+                            <a href="#" class="w-h-changes-link">
+                                <img src="./assets/Images/SVG/about-us-section-social-link-4.svg" alt="social links"
+                                    class="w-100 h-100">
+                            </a>
+                            <a href="#" class="w-h-changes-link">
+                                <img src="./assets/Images/SVG/about-us-section-social-link-5.svg" alt="social links"
+                                    class="w-100 h-100">
+                            </a>
+                        </div>
                     </div>
 
                 </div>
@@ -438,19 +554,24 @@
             <div class="container_hero py-roadmap-timeline">
                 <p class="fm_int fw-900 fs-64 lh-75 text-white text-center fs-about-heading">Roadmap</p>
                 <div class="d-flex align-items-center justify-content-center mt-lg-4 mt-sm-3 mt-2">
-                    <p class=" fm_int fw-400 fs-16 lh-30 text-white opacity-75 text-center max-w-roadmap-text">Our
-                        roadmap isn't just a
-                        journey; it's a
-                        comedic adventure through the cryptoverse, filled with
-                        twists, turns, and
-                        plenty of laughs along the way. Here's a glimpse into what the future holds for Let's Hug GG
-                        ($LHGG)
-                    </p>
+                    <!--  -->
+                    <div class="d-flex-align-items-lg-start align-items-center justify-content-center">
+                        <p
+                            class=" fm_int fw-400 fs-16 lh-30 text-white opacity-75 text-center max-w-roadmap-text max-w-lg-media">
+                            Our
+                            roadmap isn't just a
+                            journey; it's a
+                            comedic adventure through the cryptoverse, filled with
+                            twists, turns, and
+                            plenty of laughs along the way. Here's a glimpse into what the future holds for Let's Hug GG
+                            ($LHGG)
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="container-fluid position-relative after-line-timeline">
                 <div class="row justify-content-between">
-                    <div class="col-md-2 text-center px-md-0">
+                    <div class="col-md-2 text-center px-lg-0">
                         <div class="timeline-item first-item bottom-align">
                             <h4 class="fm_int fw-900 fs-24 lh-29 text-white text-start fs-timeline-main-text">Token
                                 Launch (Q1 2024)</h4>
@@ -460,7 +581,7 @@
                                 initial liquidity.</p>
                         </div>
                     </div>
-                    <div class="col-md-2 text-center px-md-0">
+                    <div class="col-md-2 text-center px-lg-0">
                         <div class="timeline-item second-item center-align max-md-change">
                             <h4 class="fm_int fw-900 fs-24 lh-29 text-white text-start fs-timeline-main-text">Community
                                 Building (Q2 2024)
@@ -471,7 +592,7 @@
                                 and engagement.</p>
                         </div>
                     </div>
-                    <div class="col-md-2 text-center px-md-0">
+                    <div class="col-md-2 text-center px-lg-0">
                         <div class="timeline-item third-item top-align max-md-change">
                             <h4 class="fm_int fw-900 fs-24 lh-29 text-white text-start fs-timeline-main-text">Governance
                                 Implementation (Q3
@@ -482,7 +603,7 @@
                                 mechanisms.</p>
                         </div>
                     </div>
-                    <div class="col-md-2 text-center px-md-0">
+                    <div class="col-md-2 text-center px-lg-0">
                         <div class="timeline-item forth-item justify-content-end max-md-change">
                             <h4 class="fm_int fw-900 fs-24 lh-29 text-white text-start fs-timeline-main-text">
                                 Partnerships and Influencer
@@ -493,7 +614,7 @@
                                 collaborations.</p>
                         </div>
                     </div>
-                    <div class="col-md-2 text-center px-md-0">
+                    <div class="col-md-2 text-center px-lg-0">
                         <div class="timeline-item fifth-item bottom-align justify-content-center max-md-change">
                             <h4 class="fm_int fw-900 fs-24 lh-29 text-white text-start fs-timeline-main-text">Utility
                                 Expansion (Q1 2025)</h4>
@@ -522,7 +643,7 @@
                 <p
                     class="fm_int fw-900 fs-64 lh-75 text-black my-media-about-text text-center mb-media-news-heading fs-head-token">
                     Latest News</p>
-                <div class="row">
+                <div class="row d-lg-max-none">
                     <div class="col-lg-4 col-sm-6 mt-4 d-flex align-items-center justify-content-center">
                         <div class="news-box">
                             <div class="d-flex align-items-center gap-3">
@@ -779,6 +900,314 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mt-4 d-flex align-items-center justify-content-center">
+                        <div class="news-box">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="d-flex">
+                                    <img src="./assets/Images/SVG/news-svg-.svg" alt="random guy clicked a photo"
+                                        class="w-100 h-100">
+                                </div>
+                                <div class="d-flex flex-column align-items-start">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <p class="fm_int fw-900 fs-16 lh-19 text-black mb-0">Joe Bidenn</p>
+                                        <span>
+                                            <img src="./assets/Images/SVG/verified-tick.svg"
+                                                alt="instagram verified tick">
+                                        </span>
+                                    </div>
+                                    <p class="fm_int fw-400 fs-14 lh-24 text-black opac_80">I am giving back in the
+                                        community.</p>
+                                </div>
+                            </div>
+                            <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80 my-news-box-text">Hipster ipsum
+                                tattooed brunch I'm baby. Crucifix cliche mixtape salvia vexillologist.
+                                Kickstarter sartorial post-ironic
+                                biodiesel cold-pressed a activated subway. Af dsa kickstarter squid.</p>
+                            <div class="d-flex align-items-center justify-content-between pe-4">
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/comment-svg.svg" alt="comment svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Retweet stroke icon.svg" alt="rwtweet svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Heart stroke icon.svg" alt="like svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Share stroke icon.svg" alt="share svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slider d-min-lg-none">
+                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                        <div class="news-box">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="d-flex">
+                                    <img src="./assets/Images/SVG/news-svg-.svg" alt="random guy clicked a photo"
+                                        class="w-100 h-100">
+                                </div>
+                                <div class="d-flex flex-column align-items-start">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <p class="fm_int fw-900 fs-16 lh-19 text-black mb-0">Joe Bidenn</p>
+                                        <span>
+                                            <img src="./assets/Images/SVG/verified-tick.svg"
+                                                alt="instagram verified tick">
+                                        </span>
+                                    </div>
+                                    <p class="fm_int fw-400 fs-14 lh-24 text-black opac_80">I am giving back in the
+                                        community.</p>
+                                </div>
+                            </div>
+                            <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80 my-news-box-text">Hipster ipsum
+                                tattooed brunch I'm baby. Crucifix cliche mixtape salvia vexillologist.
+                                Kickstarter sartorial post-ironic
+                                biodiesel cold-pressed a activated subway. Af dsa kickstarter squid.</p>
+                            <div class="d-flex align-items-center justify-content-between pe-4">
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/comment-svg.svg" alt="comment svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Retweet stroke icon.svg" alt="rwtweet svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Heart stroke icon.svg" alt="like svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Share stroke icon.svg" alt="share svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                        <div class="news-box">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="d-flex">
+                                    <img src="./assets/Images/SVG/news-svg-.svg" alt="random guy clicked a photo"
+                                        class="w-100 h-100">
+                                </div>
+                                <div class="d-flex flex-column align-items-start">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <p class="fm_int fw-900 fs-16 lh-19 text-black mb-0">Joe Bidenn</p>
+                                        <span>
+                                            <img src="./assets/Images/SVG/verified-tick.svg"
+                                                alt="instagram verified tick">
+                                        </span>
+                                    </div>
+                                    <p class="fm_int fw-400 fs-14 lh-24 text-black opac_80">I am giving back in the
+                                        community.</p>
+                                </div>
+                            </div>
+                            <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80 my-news-box-text">Hipster ipsum
+                                tattooed brunch I'm baby. Crucifix cliche mixtape salvia vexillologist.
+                                Kickstarter sartorial post-ironic
+                                biodiesel cold-pressed a activated subway. Af dsa kickstarter squid.</p>
+                            <div class="d-flex align-items-center justify-content-between pe-4">
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/comment-svg.svg" alt="comment svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Retweet stroke icon.svg" alt="rwtweet svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Heart stroke icon.svg" alt="like svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Share stroke icon.svg" alt="share svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                        <div class="news-box">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="d-flex">
+                                    <img src="./assets/Images/SVG/news-svg-.svg" alt="random guy clicked a photo"
+                                        class="w-100 h-100">
+                                </div>
+                                <div class="d-flex flex-column align-items-start">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <p class="fm_int fw-900 fs-16 lh-19 text-black mb-0">Joe Bidenn</p>
+                                        <span>
+                                            <img src="./assets/Images/SVG/verified-tick.svg"
+                                                alt="instagram verified tick">
+                                        </span>
+                                    </div>
+                                    <p class="fm_int fw-400 fs-14 lh-24 text-black opac_80">I am giving back in the
+                                        community.</p>
+                                </div>
+                            </div>
+                            <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80 my-news-box-text">Hipster ipsum
+                                tattooed brunch I'm baby. Crucifix cliche mixtape salvia vexillologist.
+                                Kickstarter sartorial post-ironic
+                                biodiesel cold-pressed a activated subway. Af dsa kickstarter squid.</p>
+                            <div class="d-flex align-items-center justify-content-between pe-4">
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/comment-svg.svg" alt="comment svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Retweet stroke icon.svg" alt="rwtweet svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Heart stroke icon.svg" alt="like svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Share stroke icon.svg" alt="share svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                        <div class="news-box">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="d-flex">
+                                    <img src="./assets/Images/SVG/news-svg-.svg" alt="random guy clicked a photo"
+                                        class="w-100 h-100">
+                                </div>
+                                <div class="d-flex flex-column align-items-start">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <p class="fm_int fw-900 fs-16 lh-19 text-black mb-0">Joe Bidenn</p>
+                                        <span>
+                                            <img src="./assets/Images/SVG/verified-tick.svg"
+                                                alt="instagram verified tick">
+                                        </span>
+                                    </div>
+                                    <p class="fm_int fw-400 fs-14 lh-24 text-black opac_80">I am giving back in the
+                                        community.</p>
+                                </div>
+                            </div>
+                            <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80 my-news-box-text">Hipster ipsum
+                                tattooed brunch I'm baby. Crucifix cliche mixtape salvia vexillologist.
+                                Kickstarter sartorial post-ironic
+                                biodiesel cold-pressed a activated subway. Af dsa kickstarter squid.</p>
+                            <div class="d-flex align-items-center justify-content-between pe-4">
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/comment-svg.svg" alt="comment svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Retweet stroke icon.svg" alt="rwtweet svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Heart stroke icon.svg" alt="like svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Share stroke icon.svg" alt="share svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                        <div class="news-box">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="d-flex">
+                                    <img src="./assets/Images/SVG/news-svg-.svg" alt="random guy clicked a photo"
+                                        class="w-100 h-100">
+                                </div>
+                                <div class="d-flex flex-column align-items-start">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <p class="fm_int fw-900 fs-16 lh-19 text-black mb-0">Joe Bidenn</p>
+                                        <span>
+                                            <img src="./assets/Images/SVG/verified-tick.svg"
+                                                alt="instagram verified tick">
+                                        </span>
+                                    </div>
+                                    <p class="fm_int fw-400 fs-14 lh-24 text-black opac_80">I am giving back in the
+                                        community.</p>
+                                </div>
+                            </div>
+                            <p class="fm_int fw-400 fs-16 lh-24 text-black opac_80 my-news-box-text">Hipster ipsum
+                                tattooed brunch I'm baby. Crucifix cliche mixtape salvia vexillologist.
+                                Kickstarter sartorial post-ironic
+                                biodiesel cold-pressed a activated subway. Af dsa kickstarter squid.</p>
+                            <div class="d-flex align-items-center justify-content-between pe-4">
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/comment-svg.svg" alt="comment svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Retweet stroke icon.svg" alt="rwtweet svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Heart stroke icon.svg" alt="like svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center gap-1">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <img src="./assets/Images/SVG/Share stroke icon.svg" alt="share svg">
+                                    </span>
+                                    <p class="fm_sf mb-0 fw-400 fs-14 lh-18 text-black">25</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
                         <div class="news-box">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="d-flex">
@@ -926,9 +1355,56 @@
         </div>
     </section>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script>
+        $('.slick-slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            variableWidth: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
 
     <script src="./assets/js/app.js"></script>
 </body>
