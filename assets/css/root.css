@@ -40,6 +40,7 @@
     --black-color: #000000;
     --nav-tele-logo-clr: linear-gradient(90deg, #2AABEE 0%, #229ED9 99.93%);
     --hero-sec-text-clr: #FC9800;
+    --slick-dot-color: #BABABA;
 
     /* font-family */
 
@@ -763,7 +764,6 @@ a {
 
     .py-utility {
         padding-top: 150px;
-        padding-bottom: 100px;
     }
 
     .py-ecosystem {
@@ -957,11 +957,10 @@ a {
 
     .py-utility {
         padding-top: 90px;
-        padding-bottom: 50px;
     }
 
     .py-ecosystem {
-        padding-top: 0;
+        padding-top: 70px;
         padding-bottom: 120px;
     }
 
@@ -1073,7 +1072,6 @@ a {
 
     .py-utility {
         padding-top: 70px;
-        padding-bottom: 70px;
     }
 
     .py-roadmap-timeline {

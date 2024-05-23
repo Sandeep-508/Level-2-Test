@@ -203,7 +203,7 @@
 
 .py-utility {
     padding-top: 333px;
-    padding-bottom: 104px;
+    padding-bottom: 0;
 }
 
 .pos-text-utility-1 {
@@ -250,7 +250,7 @@
 /* <----------------------------------------------------------- Ecosystem ----------------------------------------------------------------> */
 
 .py-ecosystem {
-    padding-top: 177px;
+    padding-top: 203px;
     padding-bottom: 285px;
 }
 
@@ -461,7 +461,7 @@
 .slick-dots li {
     width: 30px;
     height: 15px;
-    background: #BABABA;
+    background: var(--slick-dot-color);
     border-radius: 40px;
 }
 
@@ -535,7 +535,7 @@
 
 .preloader {
     /* background: linear-gradient(var(--color-sky-light), var(--color-sky-dark)); */
-    background: var(--color-white);
+    background: var(--black-color);
     z-index: 101 !important;
     top: 0;
     left: 0;
@@ -563,7 +563,7 @@
     font-weight: bold;
     font-family: monospace;
     font-size: 30px;
-    background: linear-gradient(90deg, #000 50%, #0000 0) right / 200% 100%;
+    background: linear-gradient(90deg, #fff 50%, #0000 0) right / 200% 100%;
     animation: l21 2s infinite linear;
     display: flex;
     align-items: center;
@@ -572,7 +572,7 @@
 
 .loader::before {
     content: "Loading...";
-    color: var(--black-color);
+    color: var(--slick-dot-color);
     padding: 0 5px;
     background: inherit;
     background-image: linear-gradient(90deg, #fff 50%, #000 0);
@@ -736,6 +736,7 @@
     background-color: var(--color-white);
     transition: all 300ms linear;
     z-index: 18;
+    box-shadow: 0px 0px 50px -3px var(--slick-dot-color);
 }
 
 .scroll_top {
@@ -748,6 +749,7 @@
 }
 
 .scroll_box:hover {
+    background: var(--color-white);
     transform: scale(1.2);
-    box-shadow: 0px 0px 50px -3px var(--roadmap-box);
+    box-shadow: 0px 0px 50px -3px var(--hero-sec-text-clr);
 }
