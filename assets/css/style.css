@@ -275,7 +275,7 @@
     width: 6px;
     height: 323px;
     top: 0;
-    background-color: orange;
+    background-color: var(--hero-sec-text-clr);
 }
 
 .timeline-item.fifth-item::after {
@@ -285,7 +285,7 @@
     left: -45px;
     width: 25px;
     height: 75px;
-    background-color: orange;
+    background-color: var(--hero-sec-text-clr);
 }
 
 /* forth item */
@@ -293,21 +293,21 @@
 .timeline-item.forth-item::before {
     content: '';
     position: absolute;
-    left: -36px;
+    left: -60px;
     width: 6px;
     height: 323px;
     top: -50px;
-    background-color: orange;
+    background-color: var(--hero-sec-text-clr);
 }
 
 .timeline-item.forth-item::after {
     content: '';
     position: absolute;
     bottom: 200px;
-    left: -45px;
+    left: -70px;
     width: 25px;
     height: 75px;
-    background-color: orange;
+    background-color: var(--hero-sec-text-clr);
 }
 
 /* third item */
@@ -319,7 +319,7 @@
     width: 6px;
     height: 323px;
     top: -50px;
-    background-color: orange;
+    background-color: var(--hero-sec-text-clr);
 }
 
 .timeline-item.third-item::after {
@@ -329,7 +329,7 @@
     left: -45px;
     width: 25px;
     height: 75px;
-    background-color: orange;
+    background-color: var(--hero-sec-text-clr);
 }
 
 /* second item */
@@ -340,7 +340,7 @@
     left: -36px;
     width: 6px;
     height: 323px;
-    background-color: orange;
+    background-color: var(--hero-sec-text-clr);
 }
 
 .timeline-item.second-item::after {
@@ -350,7 +350,7 @@
     left: -45px;
     width: 25px;
     height: 75px;
-    background-color: orange;
+    background-color: var(--hero-sec-text-clr);
 }
 
 /* first item */
@@ -361,7 +361,7 @@
     left: 9px;
     width: 6px;
     height: 248px;
-    background-color: orange;
+    background-color: var(--hero-sec-text-clr);
 }
 
 .timeline-item.first-item::after {
@@ -371,7 +371,7 @@
     left: 0;
     width: 25px;
     height: 75px;
-    background-color: orange;
+    background-color: var(--hero-sec-text-clr);
 }
 
 .bottom-align {
@@ -465,7 +465,7 @@
 
 .preloader {
     /* background: linear-gradient(var(--color-sky-light), var(--color-sky-dark)); */
-    background: white;
+    background: var(--color-white);
     z-index: 101 !important;
     top: 0;
     left: 0;
@@ -502,7 +502,7 @@
 
 .loader::before {
     content: "Loading...";
-    color: #0000;
+    color: var(--black-color);
     padding: 0 5px;
     background: inherit;
     background-image: linear-gradient(90deg, #fff 50%, #000 0);

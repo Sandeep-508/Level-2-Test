@@ -819,8 +819,8 @@ a {
         display: none !important;
     }
 
-    .min-vh-lg-100 {
-        min-height: 100vh;
+    .min-h-lg-810 {
+        min-height: 810px;
     }
 
     .d-lg-min-none {
@@ -1083,9 +1083,11 @@ a {
         font-size: var(--fs-18) !important;
         line-height: var(--lh-150);
     }
-.timeline-item{
-    min-height: 150px;
-}
+
+    .timeline-item {
+        min-height: 150px;
+    }
+
     .fs-timeline-sub-text {
         font-size: var(--fs-16) !important;
         line-height: var(--lh-150)
