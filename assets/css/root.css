@@ -1080,10 +1080,12 @@ a {
     }
 
     .fs-timeline-main-text {
-        font-size: var(--fs-20) !important;
+        font-size: var(--fs-18) !important;
         line-height: var(--lh-150);
     }
-
+.timeline-item{
+    min-height: 150px;
+}
     .fs-timeline-sub-text {
         font-size: var(--fs-16) !important;
         line-height: var(--lh-150)
