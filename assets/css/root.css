@@ -707,12 +707,12 @@ a {
 
     .w-h-media-changes {
         height: 100%;
-        width: 700px;
+        width: 576px !important;
     }
 
     .py-hero {
         padding-top: 130px;
-        padding-bottom: 130px;
+        padding-bottom: 0;
     }
 
     .mt-media-copy {
@@ -763,7 +763,7 @@ a {
 
     .py-utility {
         padding-top: 150px;
-        padding-bottom: 150px;
+        padding-bottom: 100px;
     }
 
     .py-ecosystem {
@@ -829,6 +829,16 @@ a {
     .pos-svg-about-googles {
         opacity: 40%;
     }
+
+    .w-h-footer-social {
+        width: 30px;
+        height: 100%;
+    }
+
+    .footer-left-max-lg {
+        border-right: 1px solid var(--hero-sec-text-clr);
+        border-left: none !important;
+    }
 }
 
 @media (min-width: 992px) {
@@ -836,16 +846,20 @@ a {
         display: none !important;
     }
 
-    .min-h-lg-810 {
-        min-height: 810px;
-    }
-
     .d-lg-min-none {
         display: none !important;
     }
 
     .pe-media {
-        padding-right: 75px;
+        padding-right: 86px;
+    }
+
+    .py-hero {
+        padding-top: 136px;
+    }
+
+    .min-lg-w-token {
+        max-width: 453px;
     }
 }
 
@@ -853,6 +867,10 @@ a {
     .fs-head-token {
         font-size: var(--fs-55);
         line-height: var(--lh-150);
+    }
+
+    .w-xl-100 {
+        width: 100%;
     }
 
     .fs-timeline-main-text {
@@ -894,6 +912,11 @@ a {
         width: 30px !important;
         height: 30px !important;
         border-radius: 50% !important;
+    }
+
+    .py-hero {
+        padding-top: 90px;
+        padding-bottom: 0;
     }
 
     .w-h-media-link {
@@ -942,11 +965,6 @@ a {
         padding-bottom: 120px;
     }
 
-    .w-h-media-changes {
-        height: 100%;
-        width: 576px;
-    }
-
     .box-token-sec {
         padding: 20.27px 12.81px 20.98px 12.19px;
     }
@@ -963,6 +981,7 @@ a {
     .forth-item,
     .fifth-item {
         padding-left: 43px;
+        margin-top: 35px;
     }
 
     .first-item::before {
@@ -994,7 +1013,7 @@ a {
         background: var(--hero-sec-text-clr);
         top: 0;
         left: 23px;
-        height: 83%;
+        height: 85%;
     }
 
     .first-item::after {
@@ -1023,6 +1042,11 @@ a {
 @media (max-width: 575.9px) {
     .fs-title-media {
         font-size: var(--fs-30);
+    }
+
+    .footer-left-max-lg {
+        border-right: none !important;
+        border-left: none !important;
     }
 
     .slick-list {
@@ -1103,7 +1127,7 @@ a {
 
     .w-h-media-changes {
         height: 100%;
-        width: 100%;
+        width: 100% !important;
     }
 
     .fs-about-heading {
@@ -1114,16 +1138,6 @@ a {
     .fs-head-token {
         font-size: var(--fs-40);
         line-height: var(--lh-150);
-    }
-
-    .py-hero {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
-    .w-h-footer-social {
-        width: 30px;
-        height: 100%;
     }
 
     .fs-timeline-main-text {
