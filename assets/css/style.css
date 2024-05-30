@@ -65,7 +65,7 @@
 
 .pos-hero-img {
     right: 0;
-    bottom: 25px;
+    bottom: 40px;
 }
 
 .-mt-10px {
@@ -88,7 +88,7 @@
 
 .pos-sec-social {
     position: relative;
-    top: 111px;
+    top: 95px;
 }
 
 .social-post-sec .slick-slide {
@@ -129,12 +129,12 @@
 .pos-text-about-1 {
     transform: rotate(-20deg);
     left: 141px;
-    top: 350px;
+    top: 260px;
 }
 
 .pos-text-about-2 {
     transform: rotate(-20deg);
-    left: 35%;
+    left: 33%;
     top: 65%;
 }
 
@@ -144,7 +144,7 @@
 }
 
 .pos-svg-about-googles {
-    bottom: 204px;
+    bottom: 270px;
     right: 15px;
 }
 
@@ -220,22 +220,22 @@
 .pos-text-utility-1 {
     transform: rotate(-20deg);
     left: 141px;
-    top: 350px;
+    top: 280px;
 }
 
 .pos-text-utility-2 {
     transform: rotate(-20deg);
     left: 45%;
-    top: 350px;
+    top: 280px;
 }
 
 .pos-text-utility-3 {
     right: 40%;
-    bottom: 0;
+    bottom: 90px;
 }
 
 .pos-svg-utility {
-    top: 188px;
+    top: 230px;
     right: 100px;
 }
 
@@ -271,7 +271,7 @@
 }
 
 .pos-svg-eco-googles {
-    bottom: 204px;
+    bottom: 270px;
     right: 80px;
 }
 

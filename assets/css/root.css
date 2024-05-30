@@ -919,6 +919,21 @@ a {
     }
 }
 
+@media (max-width: 1441.9px) {
+    .pos-svg-about-googles {
+        bottom: 204px;
+    }
+
+    .pos-svg-utility {
+        top: 188px;
+        right: 100px;
+    }
+
+    .pos-svg-eco-googles {
+        bottom: 204px;
+        right: 80px;
+    }
+}
 
 @media (max-width: 767.9px) {
 
@@ -940,7 +955,7 @@ a {
     }
 
     .pos-sec-social {
-        top: 70px;
+        top: 60px;
     }
 
     .w-h-media-link {
@@ -1082,9 +1097,17 @@ a {
         font-size: var(--fs-30);
     }
 
+    .mb-media-sub-head {
+        margin-bottom: 20px;
+    }
+
+    .mb-media-sub-text {
+        margin-bottom: 13px;
+    }
+
     .py-hero {
-        padding-top: 90px;
-        padding-bottom: 125px;
+        padding-top: 60px;
+        padding-bottom: 70px;
     }
 
     .box-changes {
