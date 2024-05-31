@@ -933,6 +933,30 @@ a {
         bottom: 204px;
         right: 80px;
     }
+
+    .pos-text-utility-1 {
+        transform: rotate(-20deg);
+        left: 141px;
+        top: 280px;
+    }
+
+    .pos-text-utility-2 {
+        transform: rotate(-20deg);
+        left: 45%;
+        top: 280px;
+    }
+
+    .pos-text-about-2 {
+        transform: rotate(-20deg);
+        left: 33%;
+        top: 65%;
+    }
+
+    .pos-text-about-1 {
+        transform: rotate(-20deg);
+        left: 141px;
+        top: 260px;
+    }
 }
 
 @media (max-width: 767.9px) {
@@ -1243,6 +1267,12 @@ a {
         border: 1px solid var(--black-color);
         background: var(--color-white);
         padding: 12px 0px 12px 12px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .third-item {
+        padding-right: 24px;
     }
 }
 

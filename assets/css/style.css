@@ -128,13 +128,13 @@
 
 .pos-text-about-1 {
     transform: rotate(-20deg);
-    left: 141px;
+    left: 380px;
     top: 260px;
 }
 
 .pos-text-about-2 {
     transform: rotate(-20deg);
-    left: 33%;
+    left: 36%;
     top: 65%;
 }
 
@@ -220,13 +220,13 @@
 .pos-text-utility-1 {
     transform: rotate(-20deg);
     left: 141px;
-    top: 280px;
+    top: 320px;
 }
 
 .pos-text-utility-2 {
     transform: rotate(-20deg);
     left: 45%;
-    top: 280px;
+    top: 320px;
 }
 
 .pos-text-utility-3 {
